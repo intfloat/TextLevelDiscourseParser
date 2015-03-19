@@ -1,0 +1,520 @@
+train 18 non-projective model
+train 18 projective model
+train 110 non-projective model
+train 110 projective model
+test 18 non-projective model
+	Loading model...done.
+
+Top 20 features: 
+RCjoint306  0.49320515947569776
+RCElaboration1558  0.4461383934703818
+LCAttribution1893  0.33757671268267886
+RCElaboration1322  0.3215197546035942
+RCexplanation4364  0.32091258986355703
+RCElaboration275  -0.3190988455007237
+RCjoint87  -0.30831341628379705
+RCElaboration195  0.3067910795878636
+RCjoint275  0.29525028250174534
+RCElaboration1331  0.29412334427205633
+RCElaboration563  0.28932046156582325
+RCElaboration1321  0.2879770700179974
+L30  -0.2840882623968175
+RCCause4364  0.2744846560806637
+RCElaboration306  -0.2741070298301602
+R157  0.2623935507263274
+R161  0.2623935507263274
+RCAttribution1843  0.2568278479976847
+RCAttribution1848  0.2568278479976847
+R6625  -0.2563039095758645
+
+Processing Sentence: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 Took: 18633
+
+
+EVALUATION PERFORMANCE:
+../testdatav6/wsj_0616.out.edus: <2, 20> vs <3, 25>
+../testdatav6/wsj_0616.out.edus: <2, 20> vs <3, 36>
+../testdatav6/wsj_0616.out.edus: <2, 20> vs <3, 39>
+../testdatav6/wsj_0616.out.edus: <2, 20> vs <3, 66>
+../testdatav6/wsj_0616.out.edus: <3, 25> vs <2, 20>
+../testdatav6/wsj_0616.out.edus: <3, 36> vs <2, 20>
+../testdatav6/wsj_0616.out.edus: <3, 39> vs <2, 20>
+../testdatav6/wsj_0616.out.edus: <3, 66> vs <2, 20>
+../testdatav6/wsj_0616.out.edus: <3, 66> vs <42, 69>
+../testdatav6/wsj_0616.out.edus: <42, 69> vs <3, 66>
+../testdatav6/wsj_0632.out.edus: <1, 19> vs <5, 43>
+../testdatav6/wsj_0632.out.edus: <1, 26> vs <5, 43>
+../testdatav6/wsj_0632.out.edus: <36, 39> vs <37, 41>
+../testdatav6/wsj_0632.out.edus: <37, 41> vs <36, 39>
+../testdatav6/wsj_0632.out.edus: <5, 43> vs <1, 19>
+../testdatav6/wsj_0632.out.edus: <5, 43> vs <1, 26>
+../testdatav6/wsj_0655.out.edus: <60, 10> vs <1, 24>
+../testdatav6/wsj_0655.out.edus: <1, 24> vs <60, 10>
+../testdatav6/wsj_0655.out.edus: <1, 24> vs <19, 31>
+../testdatav6/wsj_0655.out.edus: <1, 24> vs <10, 39>
+../testdatav6/wsj_0655.out.edus: <1, 24> vs <10, 74>
+../testdatav6/wsj_0655.out.edus: <19, 31> vs <1, 24>
+../testdatav6/wsj_0655.out.edus: <10, 39> vs <1, 24>
+../testdatav6/wsj_0655.out.edus: <1, 60> vs <10, 74>
+../testdatav6/wsj_0655.out.edus: <10, 74> vs <1, 24>
+../testdatav6/wsj_0655.out.edus: <10, 74> vs <1, 60>
+../testdatav6/wsj_0655.out.edus: <10, 74> vs <60, 93>
+../testdatav6/wsj_0655.out.edus: <82, 79> vs <74, 81>
+../testdatav6/wsj_0655.out.edus: <74, 81> vs <82, 79>
+../testdatav6/wsj_0655.out.edus: <60, 93> vs <10, 74>
+../testdatav6/wsj_0689.out.edus: <8, 34> vs <32, 38>
+../testdatav6/wsj_0689.out.edus: <8, 34> vs <25, 43>
+../testdatav6/wsj_0689.out.edus: <32, 38> vs <8, 34>
+../testdatav6/wsj_0689.out.edus: <25, 43> vs <8, 34>
+../testdatav6/wsj_1142.out.edus: <1, 12> vs <7, 88>
+../testdatav6/wsj_1142.out.edus: <1, 13> vs <7, 88>
+../testdatav6/wsj_1142.out.edus: <1, 38> vs <7, 88>
+../testdatav6/wsj_1142.out.edus: <1, 44> vs <7, 88>
+../testdatav6/wsj_1142.out.edus: <1, 57> vs <7, 88>
+../testdatav6/wsj_1142.out.edus: <7, 88> vs <1, 12>
+../testdatav6/wsj_1142.out.edus: <7, 88> vs <1, 13>
+../testdatav6/wsj_1142.out.edus: <7, 88> vs <1, 38>
+../testdatav6/wsj_1142.out.edus: <7, 88> vs <1, 44>
+../testdatav6/wsj_1142.out.edus: <7, 88> vs <1, 57>
+../testdatav6/wsj_1142.out.edus: <7, 88> vs <59, 90>
+../testdatav6/wsj_1142.out.edus: <59, 90> vs <7, 88>
+../testdatav6/wsj_1146.out.edus: <257, 2> vs <1, 75>
+../testdatav6/wsj_1146.out.edus: <257, 2> vs <8, 273>
+../testdatav6/wsj_1146.out.edus: <257, 2> vs <8, 298>
+../testdatav6/wsj_1146.out.edus: <29, 32> vs <30, 33>
+../testdatav6/wsj_1146.out.edus: <30, 33> vs <29, 32>
+../testdatav6/wsj_1146.out.edus: <257, 36> vs <1, 75>
+../testdatav6/wsj_1146.out.edus: <257, 36> vs <8, 246>
+../testdatav6/wsj_1146.out.edus: <52, 47> vs <49, 53>
+../testdatav6/wsj_1146.out.edus: <47, 51> vs <49, 53>
+../testdatav6/wsj_1146.out.edus: <257, 52> vs <49, 53>
+../testdatav6/wsj_1146.out.edus: <257, 52> vs <1, 75>
+../testdatav6/wsj_1146.out.edus: <257, 52> vs <8, 246>
+../testdatav6/wsj_1146.out.edus: <49, 53> vs <52, 47>
+../testdatav6/wsj_1146.out.edus: <49, 53> vs <47, 51>
+../testdatav6/wsj_1146.out.edus: <49, 53> vs <257, 52>
+../testdatav6/wsj_1146.out.edus: <1, 75> vs <257, 2>
+../testdatav6/wsj_1146.out.edus: <1, 75> vs <257, 36>
+../testdatav6/wsj_1146.out.edus: <1, 75> vs <257, 52>
+../testdatav6/wsj_1146.out.edus: <1, 75> vs <8, 246>
+../testdatav6/wsj_1146.out.edus: <1, 75> vs <8, 273>
+../testdatav6/wsj_1146.out.edus: <1, 75> vs <8, 298>
+../testdatav6/wsj_1146.out.edus: <185, 79> vs <257, 100>
+../testdatav6/wsj_1146.out.edus: <185, 79> vs <257, 119>
+../testdatav6/wsj_1146.out.edus: <185, 79> vs <257, 156>
+../testdatav6/wsj_1146.out.edus: <185, 79> vs <257, 181>
+../testdatav6/wsj_1146.out.edus: <79, 90> vs <87, 93>
+../testdatav6/wsj_1146.out.edus: <87, 93> vs <79, 90>
+../testdatav6/wsj_1146.out.edus: <257, 100> vs <185, 79>
+../testdatav6/wsj_1146.out.edus: <257, 100> vs <79, 125>
+../testdatav6/wsj_1146.out.edus: <257, 100> vs <8, 246>
+../testdatav6/wsj_1146.out.edus: <257, 119> vs <185, 79>
+../testdatav6/wsj_1146.out.edus: <257, 119> vs <79, 125>
+../testdatav6/wsj_1146.out.edus: <257, 119> vs <8, 246>
+../testdatav6/wsj_1146.out.edus: <79, 125> vs <257, 100>
+../testdatav6/wsj_1146.out.edus: <79, 125> vs <257, 119>
+../testdatav6/wsj_1146.out.edus: <128, 132> vs <131, 133>
+../testdatav6/wsj_1146.out.edus: <131, 133> vs <128, 132>
+../testdatav6/wsj_1146.out.edus: <257, 156> vs <185, 79>
+../testdatav6/wsj_1146.out.edus: <257, 156> vs <8, 246>
+../testdatav6/wsj_1146.out.edus: <185, 178> vs <257, 181>
+../testdatav6/wsj_1146.out.edus: <257, 181> vs <185, 79>
+../testdatav6/wsj_1146.out.edus: <257, 181> vs <185, 178>
+../testdatav6/wsj_1146.out.edus: <257, 181> vs <8, 246>
+../testdatav6/wsj_1146.out.edus: <257, 218> vs <216, 221>
+../testdatav6/wsj_1146.out.edus: <257, 218> vs <216, 222>
+../testdatav6/wsj_1146.out.edus: <257, 218> vs <8, 246>
+../testdatav6/wsj_1146.out.edus: <216, 221> vs <257, 218>
+../testdatav6/wsj_1146.out.edus: <216, 222> vs <257, 218>
+../testdatav6/wsj_1146.out.edus: <257, 236> vs <8, 246>
+../testdatav6/wsj_1146.out.edus: <8, 246> vs <257, 36>
+../testdatav6/wsj_1146.out.edus: <8, 246> vs <257, 52>
+../testdatav6/wsj_1146.out.edus: <8, 246> vs <1, 75>
+../testdatav6/wsj_1146.out.edus: <8, 246> vs <257, 100>
+../testdatav6/wsj_1146.out.edus: <8, 246> vs <257, 119>
+../testdatav6/wsj_1146.out.edus: <8, 246> vs <257, 156>
+../testdatav6/wsj_1146.out.edus: <8, 246> vs <257, 181>
+../testdatav6/wsj_1146.out.edus: <8, 246> vs <257, 218>
+../testdatav6/wsj_1146.out.edus: <8, 246> vs <257, 236>
+../testdatav6/wsj_1146.out.edus: <8, 246> vs <75, 257>
+../testdatav6/wsj_1146.out.edus: <75, 257> vs <8, 246>
+../testdatav6/wsj_1146.out.edus: <257, 264> vs <260, 266>
+../testdatav6/wsj_1146.out.edus: <257, 264> vs <260, 272>
+../testdatav6/wsj_1146.out.edus: <260, 266> vs <257, 264>
+../testdatav6/wsj_1146.out.edus: <260, 272> vs <257, 264>
+../testdatav6/wsj_1146.out.edus: <8, 273> vs <257, 2>
+../testdatav6/wsj_1146.out.edus: <8, 273> vs <1, 75>
+../testdatav6/wsj_1146.out.edus: <299, 295> vs <8, 298>
+../testdatav6/wsj_1146.out.edus: <8, 298> vs <257, 2>
+../testdatav6/wsj_1146.out.edus: <8, 298> vs <1, 75>
+../testdatav6/wsj_1146.out.edus: <8, 298> vs <299, 295>
+../testdatav6/wsj_1146.out.edus: <8, 298> vs <295, 301>
+../testdatav6/wsj_1146.out.edus: <8, 298> vs <295, 302>
+../testdatav6/wsj_1146.out.edus: <295, 301> vs <8, 298>
+../testdatav6/wsj_1146.out.edus: <295, 302> vs <8, 298>
+../testdatav6/wsj_1148.out.edus: <27, 19> vs <14, 23>
+../testdatav6/wsj_1148.out.edus: <27, 19> vs <23, 32>
+../testdatav6/wsj_1148.out.edus: <27, 19> vs <23, 35>
+../testdatav6/wsj_1148.out.edus: <14, 23> vs <27, 19>
+../testdatav6/wsj_1148.out.edus: <23, 32> vs <27, 19>
+../testdatav6/wsj_1148.out.edus: <23, 35> vs <27, 19>
+../testdatav6/wsj_1189.out.edus: <14, 10> vs <7, 12>
+../testdatav6/wsj_1189.out.edus: <7, 12> vs <14, 10>
+../testdatav6/wsj_1189.out.edus: <25, 22> vs <21, 23>
+../testdatav6/wsj_1189.out.edus: <21, 23> vs <25, 22>
+../testdatav6/wsj_1189.out.edus: <1, 34> vs <33, 65>
+../testdatav6/wsj_1189.out.edus: <57, 53> vs <52, 54>
+../testdatav6/wsj_1189.out.edus: <52, 54> vs <57, 53>
+../testdatav6/wsj_1189.out.edus: <33, 65> vs <1, 34>
+../testdatav6/wsj_1307.out.edus: <1, 11> vs <8, 15>
+../testdatav6/wsj_1307.out.edus: <8, 15> vs <1, 11>
+../testdatav6/wsj_1307.out.edus: <29, 34> vs <30, 40>
+../testdatav6/wsj_1307.out.edus: <30, 40> vs <29, 34>
+../testdatav6/wsj_1331.out.edus: <8, 12> vs <11, 13>
+../testdatav6/wsj_1331.out.edus: <11, 13> vs <8, 12>
+../testdatav6/wsj_1331.out.edus: <52, 49> vs <48, 50>
+../testdatav6/wsj_1331.out.edus: <48, 50> vs <52, 49>
+../testdatav6/wsj_1331.out.edus: <87, 93> vs <91, 97>
+../testdatav6/wsj_1331.out.edus: <91, 97> vs <87, 93>
+../testdatav6/wsj_1331.out.edus: <129, 125> vs <122, 128>
+../testdatav6/wsj_1331.out.edus: <129, 126> vs <122, 128>
+../testdatav6/wsj_1331.out.edus: <122, 128> vs <129, 125>
+../testdatav6/wsj_1331.out.edus: <122, 128> vs <129, 126>
+../testdatav6/wsj_1331.out.edus: <138, 148> vs <145, 151>
+../testdatav6/wsj_1331.out.edus: <145, 151> vs <138, 148>
+../testdatav6/wsj_1346.out.edus: <6, 11> vs <9, 12>
+../testdatav6/wsj_1346.out.edus: <9, 12> vs <6, 11>
+../testdatav6/wsj_1365.out.edus: <24, 18> vs <1, 22>
+../testdatav6/wsj_1365.out.edus: <1, 22> vs <24, 18>
+../testdatav6/wsj_1376.out.edus: <32, 38> vs <37, 39>
+../testdatav6/wsj_1376.out.edus: <37, 39> vs <32, 38>
+../testdatav6/wsj_1376.out.edus: <66, 75> vs <71, 81>
+../testdatav6/wsj_1376.out.edus: <71, 81> vs <66, 75>
+../testdatav6/wsj_1376.out.edus: <102, 97> vs <94, 99>
+../testdatav6/wsj_1376.out.edus: <94, 99> vs <102, 97>
+../testdatav6/wsj_1376.out.edus: <129, 132> vs <131, 134>
+../testdatav6/wsj_1376.out.edus: <131, 134> vs <129, 132>
+../testdatav6/wsj_2385.out.edus: <37, 40> vs <38, 41>
+../testdatav6/wsj_2385.out.edus: <38, 41> vs <37, 40>
+../testdatav6/wsj_2386.out.edus: <10, 15> vs <14, 17>
+../testdatav6/wsj_2386.out.edus: <14, 17> vs <10, 15>
+../testdatav6/wsj_2386.out.edus: <58, 71> vs <67, 73>
+../testdatav6/wsj_2386.out.edus: <67, 73> vs <58, 71>
+../testdatav6/wsj_2386.out.edus: <73, 75> vs <74, 78>
+../testdatav6/wsj_2386.out.edus: <74, 78> vs <73, 75>
+Tokens: 2346
+Correct: 1720
+Unlabeled Accuracy: 0.7331628303495311
+Unlabeled Complete Correct: 0.05263157894736842
+Labeled Accuracy: 0.48508098891730606
+Labeled Complete Correct: 0.02631578947368421
+
+This is output from my evaluator.
+Span precision/recall: 0.5873150105708245
+Nuclearity precision/recall: 0.5171247357293869
+Relation precision/recall: 0.4331923890063425
+End for my evalutor.
+
+
+PERFORMANCE VERSION2
+Tokens: 2346
+Correct: 2346
+Unlabeled Accuracy: 1.0
+Unlabeled Complete Correct: 1.0
+Labeled Accuracy: 0.5942028985507246
+Labeled Complete Correct: 0.05263157894736842
+test 18 projective model
+	Loading model...done.
+
+Top 20 features: 
+RCjoint306  0.4754113215628378
+RCElaboration1558  0.44499970413571127
+RCElaboration1322  0.3265462840442762
+LCAttribution1893  0.32393544095163246
+RCElaboration275  -0.32377302046267337
+RCElaboration195  0.3223651269973237
+RCjoint275  0.31221280421180525
+RCexplanation4364  0.30639506910093556
+RCjoint87  -0.2996189012406852
+RCElaboration1331  0.29067517395508835
+RCElaboration306  -0.2903952574822939
+RCElaboration1321  0.2868383909879908
+RCElaboration563  0.2774338878177149
+RCCause4364  0.2651460275065108
+RCjoint280  -0.25426976622943775
+RCAttribution1843  0.25210700963925375
+RCAttribution1848  0.25210700963925375
+RCElaboration124  0.2491281072450943
+RCEnablement353  0.24581279919908625
+RCEnablement359  0.24581279919908625
+
+Processing Sentence: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 Took: 39329
+
+
+EVALUATION PERFORMANCE:
+Tokens: 2346
+Correct: 1749
+Unlabeled Accuracy: 0.7455242966751918
+Unlabeled Complete Correct: 0.05263157894736842
+Labeled Accuracy: 0.4982949701619778
+Labeled Complete Correct: 0.02631578947368421
+
+This is output from my evaluator.
+Span precision/recall: 0.8291754756871036
+Nuclearity precision/recall: 0.7298097251585624
+Relation precision/recall: 0.6061310782241015
+End for my evalutor.
+
+
+PERFORMANCE VERSION2
+Tokens: 2346
+Correct: 2346
+Unlabeled Accuracy: 1.0
+Unlabeled Complete Correct: 1.0
+Labeled Accuracy: 0.6014492753623188
+Labeled Complete Correct: 0.02631578947368421
+test 110 non-projective model
+	Loading model...done.
+
+Top 20 features: 
+RCList306  0.5656392261224764
+LCattribution1893  0.3555275568147013
+RCelaboration-object-attribute-e563  0.3442737336395485
+RCList87  -0.3343008825069571
+RCelaboration-object-attribute-e275  -0.2882251395468102
+RCelaboration-object-attribute-e1558  0.28341503260987955
+RCList275  0.2827471230663138
+R6625  -0.26863882144077467
+L30  -0.26061882200188385
+RCelaboration-object-attribute-e127  -0.25185113347378546
+RCList280  -0.24747677532556167
+RCattribution977  0.24446592643503953
+RCelaboration-additional157  -0.235015949965944
+RCelaboration-additional161  -0.235015949965944
+RCelaboration-object-attribute-e30  -0.23460483740906424
+L157  0.22575809126016647
+L161  0.22575809126016647
+RCpurpose353  0.2253591985568373
+RCpurpose359  0.2253591985568373
+R157  0.21772754444555212
+
+Processing Sentence: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 Took: 55841
+
+
+EVALUATION PERFORMANCE:
+../testdatav6/wsj_0616.out.edus: <2, 20> vs <3, 25>
+../testdatav6/wsj_0616.out.edus: <2, 20> vs <3, 34>
+../testdatav6/wsj_0616.out.edus: <2, 20> vs <3, 39>
+../testdatav6/wsj_0616.out.edus: <2, 20> vs <3, 57>
+../testdatav6/wsj_0616.out.edus: <2, 20> vs <3, 61>
+../testdatav6/wsj_0616.out.edus: <2, 20> vs <3, 66>
+../testdatav6/wsj_0616.out.edus: <2, 20> vs <3, 69>
+../testdatav6/wsj_0616.out.edus: <3, 25> vs <2, 20>
+../testdatav6/wsj_0616.out.edus: <3, 34> vs <2, 20>
+../testdatav6/wsj_0616.out.edus: <3, 39> vs <2, 20>
+../testdatav6/wsj_0616.out.edus: <3, 57> vs <2, 20>
+../testdatav6/wsj_0616.out.edus: <3, 61> vs <2, 20>
+../testdatav6/wsj_0616.out.edus: <3, 66> vs <2, 20>
+../testdatav6/wsj_0616.out.edus: <3, 69> vs <2, 20>
+../testdatav6/wsj_0627.out.edus: <18, 26> vs <22, 34>
+../testdatav6/wsj_0627.out.edus: <22, 34> vs <18, 26>
+../testdatav6/wsj_0655.out.edus: <1, 31> vs <10, 47>
+../testdatav6/wsj_0655.out.edus: <1, 31> vs <10, 60>
+../testdatav6/wsj_0655.out.edus: <10, 47> vs <1, 31>
+../testdatav6/wsj_0655.out.edus: <10, 60> vs <1, 31>
+../testdatav6/wsj_0689.out.edus: <44, 67> vs <45, 74>
+../testdatav6/wsj_0689.out.edus: <44, 67> vs <53, 88>
+../testdatav6/wsj_0689.out.edus: <45, 74> vs <44, 67>
+../testdatav6/wsj_0689.out.edus: <45, 74> vs <53, 88>
+../testdatav6/wsj_0689.out.edus: <53, 88> vs <44, 67>
+../testdatav6/wsj_0689.out.edus: <53, 88> vs <45, 74>
+../testdatav6/wsj_1142.out.edus: <1, 12> vs <7, 88>
+../testdatav6/wsj_1142.out.edus: <1, 35> vs <7, 88>
+../testdatav6/wsj_1142.out.edus: <1, 44> vs <7, 88>
+../testdatav6/wsj_1142.out.edus: <1, 65> vs <7, 88>
+../testdatav6/wsj_1142.out.edus: <1, 84> vs <7, 88>
+../testdatav6/wsj_1142.out.edus: <7, 88> vs <1, 12>
+../testdatav6/wsj_1142.out.edus: <7, 88> vs <1, 35>
+../testdatav6/wsj_1142.out.edus: <7, 88> vs <1, 44>
+../testdatav6/wsj_1142.out.edus: <7, 88> vs <1, 65>
+../testdatav6/wsj_1142.out.edus: <7, 88> vs <1, 84>
+../testdatav6/wsj_1146.out.edus: <257, 36> vs <8, 40>
+../testdatav6/wsj_1146.out.edus: <257, 36> vs <8, 149>
+../testdatav6/wsj_1146.out.edus: <257, 36> vs <8, 173>
+../testdatav6/wsj_1146.out.edus: <257, 36> vs <8, 185>
+../testdatav6/wsj_1146.out.edus: <257, 36> vs <8, 223>
+../testdatav6/wsj_1146.out.edus: <257, 36> vs <8, 246>
+../testdatav6/wsj_1146.out.edus: <8, 40> vs <257, 36>
+../testdatav6/wsj_1146.out.edus: <65, 69> vs <68, 70>
+../testdatav6/wsj_1146.out.edus: <68, 70> vs <65, 69>
+../testdatav6/wsj_1146.out.edus: <65, 73> vs <71, 74>
+../testdatav6/wsj_1146.out.edus: <71, 74> vs <65, 73>
+../testdatav6/wsj_1146.out.edus: <257, 79> vs <8, 149>
+../testdatav6/wsj_1146.out.edus: <257, 79> vs <8, 173>
+../testdatav6/wsj_1146.out.edus: <257, 79> vs <8, 185>
+../testdatav6/wsj_1146.out.edus: <257, 79> vs <8, 223>
+../testdatav6/wsj_1146.out.edus: <257, 79> vs <8, 246>
+../testdatav6/wsj_1146.out.edus: <79, 90> vs <87, 93>
+../testdatav6/wsj_1146.out.edus: <87, 93> vs <79, 90>
+../testdatav6/wsj_1146.out.edus: <257, 100> vs <8, 149>
+../testdatav6/wsj_1146.out.edus: <257, 100> vs <8, 173>
+../testdatav6/wsj_1146.out.edus: <257, 100> vs <8, 185>
+../testdatav6/wsj_1146.out.edus: <257, 100> vs <8, 223>
+../testdatav6/wsj_1146.out.edus: <257, 100> vs <8, 246>
+../testdatav6/wsj_1146.out.edus: <163, 119> vs <8, 149>
+../testdatav6/wsj_1146.out.edus: <163, 119> vs <162, 170>
+../testdatav6/wsj_1146.out.edus: <163, 125> vs <8, 149>
+../testdatav6/wsj_1146.out.edus: <163, 125> vs <162, 170>
+../testdatav6/wsj_1146.out.edus: <128, 131> vs <130, 132>
+../testdatav6/wsj_1146.out.edus: <130, 132> vs <128, 131>
+../testdatav6/wsj_1146.out.edus: <130, 132> vs <131, 133>
+../testdatav6/wsj_1146.out.edus: <131, 133> vs <130, 132>
+../testdatav6/wsj_1146.out.edus: <8, 149> vs <257, 36>
+../testdatav6/wsj_1146.out.edus: <8, 149> vs <257, 79>
+../testdatav6/wsj_1146.out.edus: <8, 149> vs <257, 100>
+../testdatav6/wsj_1146.out.edus: <8, 149> vs <163, 119>
+../testdatav6/wsj_1146.out.edus: <8, 149> vs <163, 125>
+../testdatav6/wsj_1146.out.edus: <161, 163> vs <162, 170>
+../testdatav6/wsj_1146.out.edus: <162, 170> vs <163, 119>
+../testdatav6/wsj_1146.out.edus: <162, 170> vs <163, 125>
+../testdatav6/wsj_1146.out.edus: <162, 170> vs <161, 163>
+../testdatav6/wsj_1146.out.edus: <8, 173> vs <257, 36>
+../testdatav6/wsj_1146.out.edus: <8, 173> vs <257, 79>
+../testdatav6/wsj_1146.out.edus: <8, 173> vs <257, 100>
+../testdatav6/wsj_1146.out.edus: <8, 185> vs <257, 36>
+../testdatav6/wsj_1146.out.edus: <8, 185> vs <257, 79>
+../testdatav6/wsj_1146.out.edus: <8, 185> vs <257, 100>
+../testdatav6/wsj_1146.out.edus: <8, 223> vs <257, 36>
+../testdatav6/wsj_1146.out.edus: <8, 223> vs <257, 79>
+../testdatav6/wsj_1146.out.edus: <8, 223> vs <257, 100>
+../testdatav6/wsj_1146.out.edus: <8, 246> vs <257, 36>
+../testdatav6/wsj_1146.out.edus: <8, 246> vs <257, 79>
+../testdatav6/wsj_1146.out.edus: <8, 246> vs <257, 100>
+../testdatav6/wsj_1146.out.edus: <257, 253> vs <248, 256>
+../testdatav6/wsj_1146.out.edus: <248, 256> vs <257, 253>
+../testdatav6/wsj_1146.out.edus: <273, 276> vs <274, 277>
+../testdatav6/wsj_1146.out.edus: <274, 277> vs <273, 276>
+../testdatav6/wsj_1146.out.edus: <284, 289> vs <286, 298>
+../testdatav6/wsj_1146.out.edus: <284, 289> vs <286, 303>
+../testdatav6/wsj_1146.out.edus: <299, 295> vs <286, 298>
+../testdatav6/wsj_1146.out.edus: <286, 298> vs <284, 289>
+../testdatav6/wsj_1146.out.edus: <286, 298> vs <299, 295>
+../testdatav6/wsj_1146.out.edus: <286, 303> vs <284, 289>
+../testdatav6/wsj_1148.out.edus: <1, 22> vs <19, 23>
+../testdatav6/wsj_1148.out.edus: <19, 23> vs <1, 22>
+../testdatav6/wsj_1189.out.edus: <72, 22> vs <21, 23>
+../testdatav6/wsj_1189.out.edus: <72, 22> vs <21, 25>
+../testdatav6/wsj_1189.out.edus: <72, 22> vs <1, 33>
+../testdatav6/wsj_1189.out.edus: <72, 22> vs <34, 79>
+../testdatav6/wsj_1189.out.edus: <21, 23> vs <72, 22>
+../testdatav6/wsj_1189.out.edus: <21, 25> vs <72, 22>
+../testdatav6/wsj_1189.out.edus: <30, 26> vs <33, 28>
+../testdatav6/wsj_1189.out.edus: <30, 27> vs <33, 28>
+../testdatav6/wsj_1189.out.edus: <33, 28> vs <30, 26>
+../testdatav6/wsj_1189.out.edus: <33, 28> vs <30, 27>
+../testdatav6/wsj_1189.out.edus: <1, 33> vs <72, 22>
+../testdatav6/wsj_1189.out.edus: <34, 79> vs <72, 22>
+../testdatav6/wsj_1307.out.edus: <29, 34> vs <30, 40>
+../testdatav6/wsj_1307.out.edus: <29, 36> vs <30, 40>
+../testdatav6/wsj_1307.out.edus: <30, 40> vs <29, 34>
+../testdatav6/wsj_1307.out.edus: <30, 40> vs <29, 36>
+../testdatav6/wsj_1331.out.edus: <1, 8> vs <3, 13>
+../testdatav6/wsj_1331.out.edus: <3, 13> vs <1, 8>
+../testdatav6/wsj_1331.out.edus: <19, 17> vs <14, 18>
+../testdatav6/wsj_1331.out.edus: <14, 18> vs <19, 17>
+../testdatav6/wsj_1331.out.edus: <20, 24> vs <21, 25>
+../testdatav6/wsj_1331.out.edus: <21, 25> vs <20, 24>
+../testdatav6/wsj_1331.out.edus: <31, 36> vs <34, 37>
+../testdatav6/wsj_1331.out.edus: <34, 37> vs <31, 36>
+../testdatav6/wsj_1331.out.edus: <1, 78> vs <71, 82>
+../testdatav6/wsj_1331.out.edus: <1, 78> vs <71, 97>
+../testdatav6/wsj_1331.out.edus: <71, 82> vs <1, 78>
+../testdatav6/wsj_1331.out.edus: <71, 97> vs <1, 78>
+../testdatav6/wsj_1331.out.edus: <145, 147> vs <146, 148>
+../testdatav6/wsj_1331.out.edus: <146, 148> vs <145, 147>
+../testdatav6/wsj_1346.out.edus: <6, 11> vs <9, 12>
+../testdatav6/wsj_1346.out.edus: <9, 12> vs <6, 11>
+../testdatav6/wsj_1376.out.edus: <129, 133> vs <132, 134>
+../testdatav6/wsj_1376.out.edus: <132, 134> vs <129, 133>
+../testdatav6/wsj_1376.out.edus: <4, 147> vs <115, 164>
+../testdatav6/wsj_1376.out.edus: <115, 164> vs <4, 147>
+../testdatav6/wsj_2354.out.edus: <1, 13> vs <8, 27>
+../testdatav6/wsj_2354.out.edus: <1, 19> vs <8, 27>
+../testdatav6/wsj_2354.out.edus: <8, 27> vs <1, 13>
+../testdatav6/wsj_2354.out.edus: <8, 27> vs <1, 19>
+../testdatav6/wsj_2385.out.edus: <3, 11> vs <7, 21>
+../testdatav6/wsj_2385.out.edus: <7, 21> vs <3, 11>
+../testdatav6/wsj_2386.out.edus: <2, 10> vs <5, 30>
+../testdatav6/wsj_2386.out.edus: <2, 18> vs <5, 30>
+../testdatav6/wsj_2386.out.edus: <5, 30> vs <2, 10>
+../testdatav6/wsj_2386.out.edus: <5, 30> vs <2, 18>
+Tokens: 2346
+Correct: 1750
+Unlabeled Accuracy: 0.7459505541346974
+Unlabeled Complete Correct: 0.05263157894736842
+Labeled Accuracy: 0.4309462915601023
+Labeled Complete Correct: 0.02631578947368421
+
+This is output from my evaluator.
+Span precision/recall: 0.6621564482029598
+Nuclearity precision/recall: 0.5883720930232558
+Relation precision/recall: 0.4682875264270613
+End for my evalutor.
+
+
+PERFORMANCE VERSION2
+Tokens: 2346
+Correct: 2346
+Unlabeled Accuracy: 1.0
+Unlabeled Complete Correct: 1.0
+Labeled Accuracy: 0.5025575447570333
+Labeled Complete Correct: 0.02631578947368421
+test 110 projective model
+	Loading model...done.
+
+Top 20 features: 
+RCList306  0.5760431683952142
+LCattribution1893  0.3853101684299469
+RCelaboration-object-attribute-e563  0.3477162220075636
+RCList87  -0.3234865730925486
+RCList275  0.2863997979776373
+RCelaboration-object-attribute-e275  -0.2783191949291089
+RCelaboration-object-attribute-e1558  0.26368445450862305
+RCList280  -0.2517453940852299
+RCattribution977  0.24979964916472358
+RCelaboration-object-attribute-e127  -0.24380369006160027
+RCelaboration-additional157  -0.23517794320851362
+RCelaboration-additional161  -0.23517794320851362
+R6625  -0.23222444633761904
+RCpurpose359  0.2312200009903308
+RCpurpose353  0.2302330342757922
+L30  -0.2271078528568624
+RCelaboration-object-attribute-e306  -0.22169106512582298
+RCelaboration-object-attribute-e30  -0.21778592692411985
+RCelaboration-object-attribute-e124  0.21318061214735462
+RCSame-Unit141  -0.20742978145420335
+
+Processing Sentence: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 Took: 84436
+
+
+EVALUATION PERFORMANCE:
+Tokens: 2346
+Correct: 1756
+Unlabeled Accuracy: 0.7485080988917306
+Unlabeled Complete Correct: 0.07894736842105263
+Labeled Accuracy: 0.4288150042625746
+Labeled Complete Correct: 0.02631578947368421
+
+This is output from my evaluator.
+Span precision/recall: 0.83446088794926
+Nuclearity precision/recall: 0.7380549682875265
+Relation precision/recall: 0.5782241014799154
+End for my evalutor.
+
+
+PERFORMANCE VERSION2
+Tokens: 2346
+Correct: 2346
+Unlabeled Accuracy: 1.0
+Unlabeled Complete Correct: 1.0
+Labeled Accuracy: 0.49744245524296676
+Labeled Complete Correct: 0.02631578947368421
