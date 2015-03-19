@@ -1,10 +1,16 @@
+<<<<<<< HEAD
 DiscoruseDependencyParser
 ==========================
 
+=======
+TextLevelDiscourseParser
+========================
+>>>>>>> 19b20cef544e9d1c2fd7448cc6740e7bd094ad64
 
 This project is based on [MSTParser](http://www.seas.upenn.edu/~strctlrn/MSTParser/MSTParser.html)
 
 see [our ACL 2014 paper](http://acl2014.org/acl2014/P14-1/pdf/P14-1003.pdf) for more details.
+<<<<<<< HEAD
 
 This is also an [online demo](http://115.28.130.129/dep/) available.
 
@@ -36,3 +42,5 @@ Library Dependency
 Java jdk 1.6 or 1.7 are required.
 
 
+=======
+>>>>>>> 19b20cef544e9d1c2fd7448cc6740e7bd094ad64
